@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SALAD</title>
+</head>
+<style>
+    body{
+        background-color: lightgreen;
+    }
+     .btn-class {
+width: 100px;
+        height: 50px;
+        border: none;
+        color: white;
+        background-color: dodgerblue;
+        border-radius: 1px;
+        box-shadow: inset 0 0 0 0 #fb6f92;
+        transition: ease-out 0.3s;
+        font-size: 2rem;
+        outline: none;
+         float: left;
+    }
+
+    .btn-class:hover {
+        box-shadow: inset 100px 0 0 0 deeppink;
+    }
+
+    .btn-class-1 {
+width: 100px;
+        height: 50px;
+        border: none;
+        color: white;
+        background-color: dodgerblue;
+        border-radius: 1px;
+        box-shadow: inset 0 0 0 0 #fb6f92;
+        transition: ease-out 0.3s;
+        font-size: 2rem;
+        outline: none;
+         float: right;
+    }
+
+    .btn-class-1:hover {
+        box-shadow: inset 100px 0 0 0 deeppink;
+    }
+
+</style>
+<body>
+<h1>CHOPPED POWER SALAD WITH CHICKEN</h1>
+<h2>Ingredients</h2>
+<ul>Ingredient Checklist</ul>
+<li>¼ cup extra-virgin olive oil</li>
+<li>3 tablespoons lemon juice</li>
+<li>1 clove garlic, grated</li>
+<li>½ teaspoon dried oregano</li>
+<li>½ teaspoon sugar</li>
+<li>¼ teaspoon salt</li>
+<li>¼ teaspoon ground pepper</li>
+<li>4 cups torn green-leaf lettuce</li>
+<li>4 cups baby spinach</li>
+<li>2 cups shredded cooked chicken</li>
+<li>1 cup halved grape tomatoes</li>
+<li>1 cup halved and sliced cucumber</li>
+<li>½ cup slivered red onion</li>
+<li>⅓ cup sliced pepperoncini</li>
+<li>⅓ cup crumbled feta cheese</li>
+<li>2 tablespoons toasted unsalted sunflower seeds</li>
+
+<div class="btn">
+          <a href="{% url 'home' %}"><button type="button" class="btn-class">BACK</button></a>
+          <a href="{% url 'home' %}"><button type="button" class="btn-class-1">NEXT</button></a>
+          </div>
+      </div>
+</body>
+
+</html>
